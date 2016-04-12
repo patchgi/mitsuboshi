@@ -6,7 +6,7 @@ if __name__=="__main__":
 	while result!="012":
 		rand=random.randint(0,2)
 		result=result[1:]+str(rand)
-		print(u"燃やせ",u"友情",u"パッションは")[rand]
-	print (u"ミツボシ☆☆★")
+		print(("燃やせ","友情","パッションは")[rand])
+	print ("ミツボシ☆☆★")
 
 	
